@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-  git remote add origin https://github.com/carina-cc/final-website.git
-  git push origin master
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
@@ -15,14 +13,16 @@
 
 </head>
 
-<body>
+<body style="background-color: rgb(202, 202, 202);">
 
   <header>
       <nav class="navbar navbar-inverse" style="background-color: rgb(59, 59, 59);">
+        
         <div class="container-fluid" style="padding-right: 40px;">
-            <a href="index.html">Genres</a>
-          <h2>Beats and Perks</h2>
-            <button class="btn navbar-btn">Recommend an Artist</button>
+
+          <a class="navbar-brand">Beats and Perks</a>
+          
+          <button class="btn navbar-btn">Recommend an Artist</button>
         </div>
       </nav>
   </header>
@@ -31,12 +31,7 @@
   <main>
 
     <div class="intro">
-      <style>
-        h3, span { 
-            text-decoration: underline; 
-        }
-    </style>
-      <h2>pick a genre</h2>
+      <h5>click an image to pick a genre</h5>
     </div>
 
 
@@ -58,7 +53,9 @@
           </div>
         </div>
         <div class="carousel-item">
+          <a href="./metal.html">
           <img src="./img/metal.jpg" class="d-block w-100" alt="metal">
+          </a>
           <div class="carousel-caption d-none d-md-block">
             <h5>METAL</h5>
           </div>
