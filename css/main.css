@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .intro{
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+  }
+
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .navbar div {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;  }
+
+  .navbar div a {
+    padding-right: 30px;
+    color: #f2f2f2;
+    text-align: center;
+  }
+  .navbar div a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  .navbar div button{
+      background-color: lightgray;
+      color: black;
+      text-align: center;
+      font-size: 15px;
+      padding: 8px 15px;
+  }
+
+  .navbar div button:hover{
+    background-color: rgb(61, 54, 54);
+    color: whitesmoke;
+  }
+
+  .carousel-inner h5{
+    font-size: 30px;
+    font-family: 'Arimo', sans-serif;
+  }
+
+
+
+  .poptitle{
+    display: flex;
+    font-size: 45px;
+    margin-left: 220px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(83, 83, 83);
+  }
+
+  .popsection .col {
+    padding: 50px 25px;
+    text-align: justify;
+    
+  }
+
+
+  .wbox h3{
+    padding: 30px 40px 0px 40px ;
+  }
+
+  .wbox p {
+    padding: 20px 40px 40px 40px;
+  }
+
+  .wbox {
+    height: 360px;
+    width: 510px;
+    background-color: rgb(223, 223, 223);
+  }
+
+
+  
