@@ -1,2 +1,2 @@
 # final-website
-discovering new music website
+Beats and perks!
